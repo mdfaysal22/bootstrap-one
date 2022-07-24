@@ -170,4 +170,8 @@ font-family: 'Roboto', sans-serif;
 }
 #features .active .card-body .btn-custom a {
   color: #3F87F5;
+}
+
+#review-section h1 {
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
