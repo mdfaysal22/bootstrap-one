@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.7s ease !important;
+}
+* ul {
+  list-style: none !important;
+}
+* a {
+  text-decoration: none !important;
+}
+* button {
+  outline: none !important;
+}
+* button:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+#header-section .navbar-brand {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #3E3E3E;
+  font-size: 22px;
+}
+#header-section .navbar-toggler {
+  border: 0;
+  border-radius: 0;
+}
+#header-section .navbar-toggler:focus {
+  box-shadow: none;
+}
+#header-section .nav-link {
+  color: #3E3E3E;
+  font-family: "Poppins", sans-serif;
+}
+#header-section .slider .carousel-caption h5 {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+#header-section .slider .carousel-caption p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+#about-section {
+  margin-top: 3rem;
+}
+#about-section img {
+  width: 100% !important;
+}
+
+#features {
+  margin: 4rem 0;
+}
+#features h1 {
+  text-transform: uppercase;
+}
+#features .card {
+  padding: 2rem 0;
+  border: 0;
+  transition: all 0.7s ease;
+  background: url(../img/watermark.png);
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#features .card .card-body .card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #231D4F;
+}
+#features .card .card-body .card-subtitle {
+  color: #848199;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+#features .card .card-body .lists {
+  padding-left: 0;
+}
+#features .card .card-body .lists .list-items {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px 0;
+}
+#features .card .card-body .lists .list-items i {
+  color: #848199;
+}
+#features .card .card-body .btn-custom {
+  background-color: rgba(244, 150, 210, 0.5333333333);
+  border: 0;
+}
+#features .card .card-body .btn-custom a {
+  padding: 5px 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+#features .card .card-body .btn-custom:hover {
+  border: 0;
+}
+#features .card:hover {
+  background: url(../img/watermark.png), linear-gradient(rgba(63, 136, 245, 0.8274509804), rgba(63, 136, 245, 0.8666666667));
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 28px -10px rgb(12, 99, 228);
+  transform: translateY(-20px);
+}
+#features .card:hover .card-body .card-title {
+  color: #ffffff;
+}
+#features .card:hover .card-body .card-subtitle {
+  color: #fff;
+}
+#features .card:hover .card-body .lists {
+  padding-left: 0;
+}
+#features .card:hover .card-body .lists .list-items {
+  color: #fff;
+}
+#features .card:hover .card-body .lists .list-items i {
+  color: #fff;
+}
+#features .card:hover .card-body .btn-custom {
+  background-color: #fff;
+  border: 0;
+}
+#features .card:hover .card-body .btn-custom a {
+  color: #3F87F5;
+}
+#features .active {
+  background: url(../img/watermark.png), linear-gradient(rgba(63, 136, 245, 0.8274509804), rgba(63, 136, 245, 0.8666666667));
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 28px -10px rgb(12, 99, 228);
+  transform: translateY(-20px);
+}
+#features .active .card-body .card-title {
+  color: #ffffff;
+}
+#features .active .card-body .card-subtitle {
+  color: #fff;
+}
+#features .active .card-body .lists {
+  padding-left: 0;
+}
+#features .active .card-body .lists .list-items {
+  color: #fff;
+}
+#features .active .card-body .lists .list-items i {
+  color: #fff;
+}
+#features .active .card-body .btn-custom {
+  background-color: #fff;
+  border: 0;
+}
+#features .active .card-body .btn-custom a {
+  color: #3F87F5;
+}/*# sourceMappingURL=style.css.map */

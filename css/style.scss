@@ -1,0 +1,194 @@
+// Import Reset SCSS File Here......
+@import '_reset.scss';
+
+
+// Font Family 
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+$dark-text:#3E3E3E;
+$dark-blue: #231D4F;
+$gray: #848199;
+
+
+#header-section{
+    .navbar-brand{
+        font-weight: 700;
+        font-family: 'Poppins',sans-serif;
+        text-transform: uppercase;
+        color: $dark-text;
+        font-size: 22px;
+    }
+    .navbar-toggler{
+        border: 0;
+        border-radius: 0;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .nav-link{
+        color: $dark-text;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    .slider{
+        .carousel-caption{
+            h5{
+                font-weight: 400;
+                font-family: 'Poppins', sans-serif;
+            }
+            p{
+                font-family: 'Roboto',sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+#about-section{
+    margin-top: 3rem;
+    img{
+        width: 100% !important;
+    }
+}
+
+#features{
+    margin: 4rem 0;
+    h1{
+        text-transform: uppercase;
+    }
+
+    .card{
+        padding: 2rem 0;
+        border: 0;
+        transition: all 0.7s ease;
+        background: url(../img/watermark.png);
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        .card-body{
+            .card-title{
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                color: $dark-blue;
+            }
+            .card-subtitle{
+                color: $gray;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+            }
+            .lists{
+                padding-left: 0;
+                
+                .list-items{
+                font-family: 'poppins', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                padding: 5px 0;
+
+                i{
+                    color: #848199;
+                }
+                }
+            }
+            .btn-custom{
+                background-color: #f496d288;
+                border: 0;
+
+                a{
+                    padding: 5px 35px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                }
+            }
+            .btn-custom:hover{
+                border: 0;
+            }
+
+        }
+    }
+    .card:hover{
+        background:url(../img/watermark.png), linear-gradient(#3f88f5d3, #3f88f5dd);
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 0px 10px 28px -10px rgb(12, 99, 228);
+        transform: translateY(-20px);
+        .card-body{
+            .card-title{
+                color: #ffffff;
+            }
+            .card-subtitle{
+                color: #fff;
+            }
+            .lists{
+                padding-left: 0;
+                
+                .list-items{
+                color: #fff;
+
+                i{
+                    color: #fff;
+                }
+                }
+            }
+            .btn-custom{
+                background-color: #fff;
+                border: 0;
+
+                a{
+                    color: #3F87F5;
+                }
+            }
+
+        }
+    }
+
+    .active{
+        background:url(../img/watermark.png), linear-gradient(#3f88f5d3, #3f88f5dd);
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: 0px 10px 28px -10px rgb(12, 99, 228);
+        transform: translateY(-20px);
+        .card-body{
+            .card-title{
+                color: #ffffff;
+            }
+            .card-subtitle{
+                color: #fff;
+            }
+            .lists{
+                padding-left: 0;
+                
+                .list-items{
+                color: #fff;
+
+                i{
+                    color: #fff;
+                }
+                }
+            }
+            .btn-custom{
+                background-color: #fff;
+                border: 0;
+
+                a{
+                    color: #3F87F5;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+// Import Responsive File Here
+// @import '_responsiv.scss';
