@@ -60,6 +60,10 @@ font-family: 'Roboto', sans-serif;
 #about-section img {
   width: 100% !important;
 }
+#about-section .alert {
+  border: 0;
+  right: 50px;
+}
 
 #features {
   margin: 4rem 0;
@@ -174,4 +178,12 @@ font-family: 'Roboto', sans-serif;
 
 #review-section h1 {
   text-transform: uppercase;
+}
+
+#faq h1 {
+  text-transform: uppercase;
+}
+
+#footer-section {
+  background-color: #0B0D17;
 }/*# sourceMappingURL=style.css.map */

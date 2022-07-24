@@ -51,6 +51,11 @@ $gray: #848199;
     img{
         width: 100% !important;
     }
+
+    .alert{
+        border: 0;
+        right: 50px;
+    }
 }
 
 #features{
@@ -191,6 +196,15 @@ $gray: #848199;
     }
 }
 
+#faq{
+    h1{
+        text-transform: uppercase;
+    }
+}
+
+#footer-section{
+    background-color: #0B0D17;
+}
 
 
 
